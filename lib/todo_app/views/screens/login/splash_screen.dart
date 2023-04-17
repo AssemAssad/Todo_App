@@ -10,7 +10,7 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     initFun();
-    return Scaffold(
+    return const Scaffold(
       body: Center(
         child: FlutterLogo(),
       ),
